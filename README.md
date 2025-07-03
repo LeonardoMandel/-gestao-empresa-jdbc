@@ -14,7 +14,7 @@ Antes de executar a aplicação, o banco de dados precisa ser configurado.
 
 1.  Certifique-se de que o seu serviço MySQL está em execução.
 2.  Use um cliente de banco de dados (como HeidiSQL, DBeaver, etc.) para executar o script SQL localizado em:
-    `src/main/resources/empresa.sql`
+    arquivo 'sql.sql'
 3.  Este script irá criar o banco de dados `empresa`, o usuário `devuser` e todas as tabelas necessárias, deixando-as prontas e vazias para a aplicação.
 4.  As credenciais padrão usadas pela aplicação são:
     * **Usuário:** `devuser`
